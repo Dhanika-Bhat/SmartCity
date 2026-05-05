@@ -49,12 +49,12 @@ export default function ApiDocs() {
                 </div>
             </div>
 
-            <div className="card" style={{ marginBottom: 24 }}>
+            <div className="card" style={{ marginBottom: 22 }}>
                 <div className="card-header">
                     <h3 className="card-title">📡 Network Architecture</h3>
                 </div>
                 <div className="card-body">
-                    <div style={{ display: 'flex', gap: 16, marginBottom: 20 }}>
+                    <div style={{ display: 'flex', gap: 17, marginBottom: 20 }}>
                         <div style={{ flex: 1, padding: 16, background: '#f7f9fc', border: '1px solid var(--border-color)', borderRadius: 'var(--radius-md)' }}>
                             <div style={{ fontWeight: 700, fontSize: 13, marginBottom: 8, color: 'var(--gov-blue)' }}>Endpoint Authority</div>
                             <div style={{ fontFamily: 'monospace', fontSize: 16 }}>http://172.16.45.35:5000</div>
