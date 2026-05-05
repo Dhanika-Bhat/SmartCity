@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const FALLBACK_LEADERBOARD = [
-    { _id: '1', name: 'Arjun Sharma', area: 'Sector 4A', ecoCredits: 1840, reportsCount: 23, avatar: '🧑' },
+    { _id: '1', name: 'Rajat Sharma', area: 'Sector 4A', ecoCredits: 1840, reportsCount: 23, avatar: '🧑' },
     { _id: '2', name: 'Priya Nair', area: 'Sector 7B', ecoCredits: 1620, reportsCount: 18, avatar: '👩' },
     { _id: '3', name: 'Rahul Verma', area: 'Sector 2C', ecoCredits: 1420, reportsCount: 15, avatar: '👨' },
     { _id: '4', name: 'Sneha Patel', area: 'Sector 9D', ecoCredits: 1195, reportsCount: 12, avatar: '👩‍💼' },
