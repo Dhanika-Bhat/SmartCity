@@ -18,7 +18,7 @@ export default function BossAlert({ alert, onClose }) {
                     <br /><br />
                     <span style={{ color: 'var(--gov-red)', fontWeight: 700 }}>{alert.message}</span>
                 </div>
-                <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
+                <div style={{ display: 'flex', gap: 13, justifyContent: 'center' }}>
                     <button className="btn btn-primary" onClick={onClose}>
                         ✓ ACKNOWLEDGE
                     </button>
